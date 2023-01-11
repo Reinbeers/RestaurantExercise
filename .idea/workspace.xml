@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="991471f9-915d-4ab9-ac15-59d333dfd1c7" name="Changes" comment="create constructed method Client" />
+    <list default="true" id="991471f9-915d-4ab9-ac15-59d333dfd1c7" name="Changes" comment="removed errors in Table">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_01_2023,_15_14_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_01_2023,_15_37_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_01_2023,_16_24_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_01_2023__15_14__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_01_2023__15_37__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_01_2023__16_24__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Table.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,21 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673456400274</updated>
     </task>
-    <task id="LOCAL-00005" summary="create constructed method Client">
-      <created>1673456979112</created>
+    <task id="LOCAL-00005" summary="removed errors in Table">
+      <created>1673458096137</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1673456979112</updated>
+      <updated>1673458096137</updated>
     </task>
-    <task id="LOCAL-00006" summary="create constructed method Client">
-      <created>1673457042640</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1673457042640</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +109,7 @@
     <MESSAGE value="Change Restaurant Class." />
     <MESSAGE value="create empty metods Client;" />
     <MESSAGE value="create constructed method Client" />
-    <option name="LAST_COMMIT_MESSAGE" value="create constructed method Client" />
+    <MESSAGE value="removed errors in Table" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed errors in Table" />
   </component>
 </project>
