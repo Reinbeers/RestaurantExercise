@@ -10,8 +10,6 @@ public class Table {
         return free;
     }
 
-
-
     public Table(boolean free, String order) {
         this.free = free;
         this.order = order;
