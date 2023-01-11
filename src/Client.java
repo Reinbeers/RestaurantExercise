@@ -1,5 +1,5 @@
 public class Client{
-    int tableNumber = new tableNumber;
+   // int tableNumber = new tableNumber;
     private String name;
 
     public String getName() {
@@ -11,10 +11,10 @@ public class Client{
 
 
     }
-public askForTable(){
+public void askForTable(){
 
         }
-public order(){
+public void order(){
 
         }
 public void pay(){
