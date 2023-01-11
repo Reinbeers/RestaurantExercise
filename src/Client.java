@@ -1,10 +1,14 @@
 public class Client{
-   // int tableNumber = new tableNumber;
+    // int tableNumber = new tableNumber;
     private String name;
     private String order;
 
     public String getName() {
         return name;
+    }
+
+    public String getOrder() {
+        return order;
     }
 
     public Client (String name){
@@ -13,14 +17,14 @@ public class Client{
 
 
     }
-public void askForTable(){
+    public void askForTable(){
 
-        }
-public String order (String order){
-    return this.order = order;
-        }
-public void pay(){
+    }
+    public String order (String order){
+        return this.order = order;
+    }
+    public void pay(){
 
-        }
+    }
 
-        }
+}
