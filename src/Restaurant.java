@@ -25,10 +25,10 @@ public class Restaurant {
         this.clients[0] = new Client("Tiago");
         this.clients[1] = new Client("JP");
         this.clients[2] = new Client("Filipa");
-        this.tables[0] = new Table(true,"Arroz");
-        this.tables[1] = new Table(true,"massa");
-        this.tables[2] = new Table(true,"Francesinha");
-        this.tables[3] = new Table(true,"Arroz");
+        this.tables[0] = new Table(true,"Arroz", 2);
+        this.tables[1] = new Table(true,"massa",4);
+        this.tables[2] = new Table(true,"Francesinha",3);
+        this.tables[3] = new Table(true,"Arroz",5);
 
 
 
