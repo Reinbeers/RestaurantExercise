@@ -1,0 +1,56 @@
+Index: src/Table.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Table {\n    boolean free;\n    String order;\n    String orderName;\n\n\n    public Table(boolean free, String order) {\n        this.free = free;\n        this.order = order;\n    }\n\n\n        public void occupy() {\n            this.free = false;\n        }\n        public void unoccupy() {\n            this.free = true;\n        }\n\n\n        public void getOrder() {\n        }\n        public void saveOrder() {\n        }\n        public void cleanOrder() {\n        }\n\n        public boolean isFree() {\n            return this.free;\n        }\n\n\n\n\n\n\n\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Table.java b/src/Table.java
+--- a/src/Table.java	(revision 4d7ea6072a4e530d43dae322622d73d10d42eac3)
++++ b/src/Table.java	(date 1673457760887)
+@@ -8,8 +8,6 @@
+         this.free = free;
+         this.order = order;
+     }
+-
+-
+         public void occupy() {
+             this.free = false;
+         }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"991471f9-915d-4ab9-ac15-59d333dfd1c7\" name=\"Changes\" comment=\"create constructed method Client\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2KBVFP2rEzVqOOdA2sN01bLdplB\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\n    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;\n  }\n}</component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"991471f9-915d-4ab9-ac15-59d333dfd1c7\" name=\"Changes\" comment=\"\" />\n      <created>1673447861813</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1673447861813</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Change Restaurant Class.\">\n      <created>1673449788079</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1673449788079</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"create empty metods Client;\">\n      <created>1673451447649</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1673451447649</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"create constructed method Client\">\n      <created>1673454433703</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1673454433703</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"create constructed method Client\">\n      <created>1673456400274</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1673456400274</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"create constructed method Client\">\n      <created>1673456979112</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1673456979112</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"create constructed method Client\">\n      <created>1673457042640</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1673457042640</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"7\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Change Restaurant Class.\" />\n    <MESSAGE value=\"create empty metods Client;\" />\n    <MESSAGE value=\"create constructed method Client\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"create constructed method Client\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 4d7ea6072a4e530d43dae322622d73d10d42eac3)
++++ b/.idea/workspace.xml	(date 1673457761228)
+@@ -4,7 +4,9 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="991471f9-915d-4ab9-ac15-59d333dfd1c7" name="Changes" comment="create constructed method Client" />
++    <list default="true" id="991471f9-915d-4ab9-ac15-59d333dfd1c7" name="Changes" comment="create constructed method Client">
++      <change beforePath="$PROJECT_DIR$/src/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Table.java" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -89,7 +91,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1673457042640</updated>
+     </task>
+-    <option name="localTasksCounter" value="7" />
++    <task id="LOCAL-00007" summary="create constructed method Client">
++      <created>1673457474289</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1673457474289</updated>
++    </task>
++    <option name="localTasksCounter" value="8" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
