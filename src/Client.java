@@ -1,14 +1,20 @@
 public class Client{
-    int tableNumber=4;
+    int tableNumber = new tableNumber;
     private String name;
+
+    public String getName() {
+        return name;
+    }
 
     public Client (String name){
         this.name = name;
+
+
     }
-public void askForTable(){
+public askForTable(){
 
         }
-public void order(){
+public order(){
 
         }
 public void pay(){
