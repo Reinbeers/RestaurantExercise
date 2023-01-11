@@ -1,6 +1,7 @@
 public class Table {
     boolean free;
     String order;
+    int seatNum;
 
 
     public String getOrder() {
@@ -10,15 +11,18 @@ public class Table {
         return free;
     }
 
-    public Table(boolean free, String order) {
+    public Table(boolean free, String order, int seats) {
         this.free = free;
         this.order = order;
-
+        this.seatNum = seats;
 
     }
 
 
     public void occupy() {
+        if (seatNum>4) {
+            System.out.println("The table isn't big enough.");;
+        } else
         this.free = false;
     }
     public void unoccupy() {
@@ -28,8 +32,10 @@ public class Table {
 
 
     public void saveOrder() {
+
     }
     public void cleanOrder() {
+
     }
 
     public boolean isFree() {
