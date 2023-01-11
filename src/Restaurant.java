@@ -36,6 +36,13 @@ public class Restaurant {
 
 
     public void findTable(){
+        for (int i = 0; i < tables.length; i++) {
+            if(tables[i].isFree()==true){
+                tables[i].setFree(false);
+            }
+            System.out.println("All Tables are occupied");
+        }
+
 
     }
     public void freeTable(){

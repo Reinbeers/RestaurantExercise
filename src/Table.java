@@ -12,12 +12,16 @@ public class Table {
     }
 
     public Table(boolean free, String order, int seats) {
-        this.free = free;
+        this.free = true;
         this.order = order;
         this.seatNum = seats;
 
     }
 
+
+    public void setFree(boolean free) {
+        this.free = free;
+    }
 
     public void occupy() {
         if (seatNum>4) {
