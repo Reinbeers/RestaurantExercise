@@ -3,5 +3,6 @@ public class Main {
         System.out.println("Hell´s Kitchen Begin...");
         Restaurant restaurant1 = new Restaurant();
         System.out.println(restaurant1.clients[1].getName());
+        restaurant1.clients[0].pay();
     }
 }
