@@ -22,8 +22,9 @@ public class Table {
     public void occupy() {
         if (seatNum>4) {
             System.out.println("The table isn't big enough.");;
-        } else
-        this.free = false;
+        } else {
+            this.free = false;
+        }
     }
     public void unoccupy() {
         this.free = true;
