@@ -3,7 +3,7 @@ public class Table {
     String order;
     int seatNum;
 
-
+//sus
     public String getOrder() {
         return order;
     }
