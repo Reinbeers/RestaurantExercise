@@ -10,29 +10,23 @@ public class Table {
     }
 
 
-        public void occupy() {
-            this.free = false;
-        }
-        public void unoccupy() {
-            this.free = true;
-        }
+    public void occupy() {
+        this.free = false;
+    }
+    public void unoccupy() {
+        this.free = true;
+    }
 
 
-        public void getOrder() {
-        }
-        public void saveOrder() {
-        }
-        public void cleanOrder() {
-        }
+    public void getOrder() {
+    }
+    public void saveOrder() {
+    }
+    public void cleanOrder() {
+    }
 
-        public boolean isFree() {
-            return this.free;
-        }
-
-
-
-
-
-
+    public boolean isFree() {
+        return this.free;
+    }
 
 }
