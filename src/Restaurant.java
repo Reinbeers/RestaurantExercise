@@ -1,7 +1,11 @@
 public class Restaurant {
     private String name;
     private String localization;
-    public Client [] clients = new Client[4];
+    public Client [] clients;
+    boolean fullCapacity;
+    int numberOfOccupiedTables;
+    int restaurantCount;
+    public Table[] tables;
 
 
     public String getName() {
@@ -16,6 +20,8 @@ public class Restaurant {
         this.name = name;
         this.localization = localization;
     }
+
+
 
 
 
