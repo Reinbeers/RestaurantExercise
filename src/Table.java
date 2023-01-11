@@ -1,37 +1,38 @@
 public class Table {
     boolean free;
     String order;
+    String orderName;
 
 
-    public void Table(boolean free, String order) {
+    public Table(boolean free, String order) {
         this.free = free;
         this.order = order;
-
+    }
 
 
         public void occupy() {
-            free = false;
+            this.free = false;
         }
         public void unoccupy() {
-            free = true;
+            this.free = true;
         }
 
 
-        public void getOrder {
+        public void getOrder() {
         }
-        public void saveOrder {
+        public void saveOrder() {
         }
-        public void cleanOrder {
-        }
-
-        public void isFree() {
-            return boolean free;
+        public void cleanOrder() {
         }
 
+        public boolean isFree() {
+            return this.free;
+        }
 
 
 
 
 
-    }
+
+
 }
